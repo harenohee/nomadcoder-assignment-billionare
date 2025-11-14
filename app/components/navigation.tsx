@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navigation = () => {
   return (
-    <div className="p-2">
+    <div className="bg-gray-400 p-2">
       <Link href="/">
         <Image
           className="dark:invert"

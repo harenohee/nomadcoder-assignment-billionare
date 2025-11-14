@@ -23,7 +23,7 @@ const getBillionaireList = async () => {
 export default async function Home() {
   const billionareList = await getBillionaireList();
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
+    <div className="flex min-h-screen items-center justify-center font-sans dark:bg-black">
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {billionareList.map((billionaire: Billionaires) => (
           <Link
